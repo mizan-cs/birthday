@@ -1,10 +1,10 @@
 @extends('layouts.app')
 @section('content')
-    {{--<div id="loader-wrapper">--}}
-        {{--<div id="loader"><img src="images/loader.gif" alt=""></div>--}}
-        {{--<div class="loader-section section-left"></div>--}}
-        {{--<div class="loader-section section-right"></div>--}}
-    {{--</div>--}}
+    <div id="loader-wrapper">
+        <div id="loader"><img src="images/loader.gif" alt=""></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
 
     @include('sections.header')
     @include('sections.slider')
